@@ -1,12 +1,32 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/map/map"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#2D8CF0",
     "navigationBarTitleText": "智慧城市",
     "navigationBarTextStyle":"light"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "black",
+    "borderStyle": "#cccccc",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/home_1.png",
+        "selectedIconPath": "/images/home_0.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "/images/map_1.png",
+        "selectedIconPath": "/images/map_0.png",
+        "text": "地图"
+      }
+    ]
   }
 }
